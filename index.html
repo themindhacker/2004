@@ -206,7 +206,15 @@ footer p {
 }
 </style>	
 
-
+<script src="https://cdn.onesignal.com/sdks/OneSignalSDK.js" async=""></script>
+<script>
+  window.OneSignal = window.OneSignal || [];
+  OneSignal.push(function() {
+    OneSignal.init({
+      appId: "dcd1aff8-6c68-435c-9c7a-0109e6b48667",
+    });
+  });
+</script>
 </head>
 
 <body>
